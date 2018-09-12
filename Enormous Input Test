@@ -1,0 +1,12 @@
+inp = input()
+
+n = inp.split()[0]
+k = int(inp.split()[1])
+ct = 0;
+for i in range(int(n)) :
+	num = input()
+
+	if(int(num) % k == 0) :
+		ct = ct + 1
+
+print(ct)		
