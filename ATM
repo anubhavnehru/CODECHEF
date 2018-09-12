@@ -1,0 +1,9 @@
+money = input()
+amt = int(money.split()[0])
+bal = float(money.split()[1])
+
+if(amt % 5 == 0 and amt + 0.5 < bal) :
+        bal = bal - amt - 0.5
+        print("{0:.2f}".format(bal))
+else :
+   	print("{0:.2f}".format(bal))
