@@ -1,0 +1,10 @@
+tc = int(input())
+lst = []
+for i in range(tc) :
+	a = int(input())
+	lst.append(a)
+
+lst.sort()
+
+for i in range(tc):
+	print(lst[i])
