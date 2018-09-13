@@ -1,0 +1,9 @@
+tc = int(input())
+
+while(tc):
+	num = input()
+	a = int(num.split()[0])
+	b = int(num.split()[1])
+	sum1 = a + b
+	print(sum1)
+	tc = tc-1
